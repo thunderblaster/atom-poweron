@@ -2,7 +2,7 @@
     "name": "poweron",
     "displayName": "PowerOn",
     "description": "Syntax highlighting for Symitar's PowerOn Language",
-    "version": "0.0.0",
+    "version": "0.1.0",
     "publisher": "thunderblaster",
     "icon": "poweron.ico",
     "author": {
