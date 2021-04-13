@@ -8,10 +8,12 @@
     "author": {
         "name": "Zack Reithmeyer"
     },
-    "licenses": [{
-        "type": "MIT",
-        "url": "https://github.com/thunderblaster/atom-poweron/blob/master/LICENSE"
-    }],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/thunderblaster/atom-poweron/blob/master/LICENSE"
+        }
+    ],
     "repository": {
         "type": "git",
         "url": "https://github.com/thunderblaster/atom-poweron"
@@ -26,16 +28,37 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "poweron",
-            "aliases": ["PowerOn", "po", "poweron", "symitar", "repgen", "episys"],
-            "extensions": [".PO", ".DEF", ".SET", ".PRO", ".SUB", ".POWERON"],
-            "configuration": "./poweron.config.json"
-        }],
-        "grammars": [{
-            "language": "poweron",
-            "scopeName": "source.poweron",
-            "path": "./grammars/poweron.language.json"
-        }]     
+        "languages": [
+            {
+                "id": "poweron",
+                "aliases": [
+                    "PowerOn",
+                    "po",
+                    "poweron",
+                    "symitar",
+                    "repgen",
+                    "episys"
+                ],
+                "extensions": [
+                    ".PO",
+                    ".DEF",
+                    ".SET",
+                    ".PRO",
+                    ".SUB",
+                    ".POWERON"
+                ],
+                "configuration": "./poweron.config.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "poweron",
+                "scopeName": "source.poweron",
+                "path": "./grammars/poweron.language.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "npm": "^7.9.0"
     }
 }
