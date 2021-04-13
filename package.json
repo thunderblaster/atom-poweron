@@ -2,26 +2,25 @@
     "name": "poweron",
     "displayName": "PowerOn",
     "description": "Syntax highlighting for Symitar's PowerOn Language",
-    "version": "1.0.10",
-    "publisher": "0sawaqed",
+    "version": "0.0.0",
+    "publisher": "thunderblaster",
     "icon": "poweron.ico",
     "author": {
-        "name": "Oday Sawaqed",
-        "email": "github@osawaqed.com"
+        "name": "Zack Reithmeyer"
     },
     "licenses": [{
         "type": "MIT",
-        "url": "https://github.com/0sawaqed/vscode-poweron/blob/master/LICENSE"
+        "url": "https://github.com/thunderblaster/atom-poweron/blob/master/LICENSE"
     }],
     "repository": {
         "type": "git",
-        "url": "https://github.com/0sawaqed/vscode-poweron"
+        "url": "https://github.com/thunderblaster/atom-poweron"
     },
     "bugs": {
-        "url": "https://github.com/0sawaqed/vscode-poweron/issues"
+        "url": "https://github.com/thunderblaster/atom-poweron/issues"
     },
     "engines": {
-        "vscode": "^1.45.0"
+        "atom": "^1.0.0"
     },
     "categories": [
         "Programming Languages"
@@ -36,7 +35,7 @@
         "grammars": [{
             "language": "poweron",
             "scopeName": "source.poweron",
-            "path": "./syntaxes/poweron.language.json"
+            "path": "./grammars/poweron.language.json"
         }]     
     }
 }
