@@ -1,5 +1,5 @@
 {
-    "name": "poweron",
+    "name": "language-poweron",
     "displayName": "PowerOn",
     "description": "Syntax highlighting for Symitar's PowerOn Language",
     "version": "0.1.0",
